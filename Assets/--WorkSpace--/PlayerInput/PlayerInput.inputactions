@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "21a1a2a6-87b9-42cd-b1aa-be289aa9baa6",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "326eb795-af1d-47f7-99cb-b496f0c7b34a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "674071ea-973c-46e1-a0df-9ef47b341ae0",
+                    "path": "<AndroidJoystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
